@@ -1,0 +1,29 @@
+  296  ls
+  297  touch test
+  298  git status
+  299  cd ..
+  300  git status
+  301  ls
+  302  vi .gitignore
+  303  git status
+  304  git ci -a -m "update .gitignore"
+  305  ls
+  306  cd demo
+  307  ls
+  308  touch a{1,2,3}
+  309  ls
+  310  cd ..
+  311  ls
+  312  git status
+  313  cat .gitignore
+  314  ls
+  315  mkdir test
+  316  ls
+  317  cd test
+  318  ls
+  319  cd ..
+  320  ls
+  321  cd ..
+  322  ls
+  323  open .
+  324  ls

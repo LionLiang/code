@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB14E2F8-26AA-47B1-B9F3-56F8A044AF82</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NSStringDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9860EEAE-B40D-45C8-AE75-AA0E764561AE</key>
+		<string>ssh://192.168.1.168/Users/qingyun/Desktop/code09/20141007</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NSStringDemo/NSStringDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9860EEAE-B40D-45C8-AE75-AA0E764561AE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://192.168.1.168/Users/qingyun/Desktop/code09/20141007</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9860EEAE-B40D-45C8-AE75-AA0E764561AE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9860EEAE-B40D-45C8-AE75-AA0E764561AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>20141007</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC30419C1A9F0BE000AC08B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC30419B1A9F0BE000AC08B1 /* Foundation.framework */; };
+		CC30419E1A9F0BE000AC08B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC30419D1A9F0BE000AC08B1 /* CoreGraphics.framework */; };
+		CC3041A01A9F0BE000AC08B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC30419F1A9F0BE000AC08B1 /* UIKit.framework */; };
+		CC3041A61A9F0BE000AC08B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC3041A41A9F0BE000AC08B1 /* InfoPlist.strings */; };
+		CC3041A81A9F0BE000AC08B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3041A71A9F0BE000AC08B1 /* main.m */; };
+		CC3041AC1A9F0BE000AC08B1 /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3041AB1A9F0BE000AC08B1 /* QYAppDelegate.m */; };
+		CC3041AE1A9F0BE000AC08B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3041AD1A9F0BE000AC08B1 /* Images.xcassets */; };
+		CC3041B51A9F0BE000AC08B1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3041B41A9F0BE000AC08B1 /* XCTest.framework */; };
+		CC3041B61A9F0BE000AC08B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC30419B1A9F0BE000AC08B1 /* Foundation.framework */; };
+		CC3041B71A9F0BE000AC08B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC30419F1A9F0BE000AC08B1 /* UIKit.framework */; };
+		CC3041BF1A9F0BE000AC08B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC3041BD1A9F0BE000AC08B1 /* InfoPlist.strings */; };
+		CC3041C11A9F0BE000AC08B1 /* TransValueDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3041C01A9F0BE000AC08B1 /* TransValueDemoTests.m */; };
+		CC3041CC1A9F0BF900AC08B1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3041CB1A9F0BF900AC08B1 /* FirstViewController.m */; };
+		CC3041CF1A9F0C0600AC08B1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3041CE1A9F0C0600AC08B1 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC3041B81A9F0BE000AC08B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3041901A9F0BE000AC08B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3041971A9F0BE000AC08B1;
+			remoteInfo = TransValueDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC3041981A9F0BE000AC08B1 /* TransValueDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransValueDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC30419B1A9F0BE000AC08B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC30419D1A9F0BE000AC08B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC30419F1A9F0BE000AC08B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC3041A31A9F0BE000AC08B1 /* TransValueDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransValueDemo-Info.plist"; sourceTree = "<group>"; };
+		CC3041A51A9F0BE000AC08B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC3041A71A9F0BE000AC08B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC3041A91A9F0BE000AC08B1 /* TransValueDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransValueDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CC3041AA1A9F0BE000AC08B1 /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CC3041AB1A9F0BE000AC08B1 /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CC3041AD1A9F0BE000AC08B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC3041B31A9F0BE000AC08B1 /* TransValueDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransValueDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3041B41A9F0BE000AC08B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC3041BC1A9F0BE000AC08B1 /* TransValueDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransValueDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CC3041BE1A9F0BE000AC08B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC3041C01A9F0BE000AC08B1 /* TransValueDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransValueDemoTests.m; sourceTree = "<group>"; };
+		CC3041CA1A9F0BF900AC08B1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CC3041CB1A9F0BF900AC08B1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CC3041CD1A9F0C0600AC08B1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CC3041CE1A9F0C0600AC08B1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CC3041D01A9F0F0000AC08B1 /* TransValueProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransValueProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3041951A9F0BE000AC08B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC30419E1A9F0BE000AC08B1 /* CoreGraphics.framework in Frameworks */,
+				CC3041A01A9F0BE000AC08B1 /* UIKit.framework in Frameworks */,
+				CC30419C1A9F0BE000AC08B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3041B01A9F0BE000AC08B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3041B51A9F0BE000AC08B1 /* XCTest.framework in Frameworks */,
+				CC3041B71A9F0BE000AC08B1 /* UIKit.framework in Frameworks */,
+				CC3041B61A9F0BE000AC08B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC30418F1A9F0BE000AC08B1 = {
+			isa = PBXGroup;
+			children = (
+				CC3041A11A9F0BE000AC08B1 /* TransValueDemo */,
+				CC3041BA1A9F0BE000AC08B1 /* TransValueDemoTests */,
+				CC30419A1A9F0BE000AC08B1 /* Frameworks */,
+				CC3041991A9F0BE000AC08B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3041991A9F0BE000AC08B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3041981A9F0BE000AC08B1 /* TransValueDemo.app */,
+				CC3041B31A9F0BE000AC08B1 /* TransValueDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC30419A1A9F0BE000AC08B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC30419B1A9F0BE000AC08B1 /* Foundation.framework */,
+				CC30419D1A9F0BE000AC08B1 /* CoreGraphics.framework */,
+				CC30419F1A9F0BE000AC08B1 /* UIKit.framework */,
+				CC3041B41A9F0BE000AC08B1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3041A11A9F0BE000AC08B1 /* TransValueDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC3041AA1A9F0BE000AC08B1 /* QYAppDelegate.h */,
+				CC3041AB1A9F0BE000AC08B1 /* QYAppDelegate.m */,
+				CC3041D01A9F0F0000AC08B1 /* TransValueProtocol.h */,
+				CC3041CA1A9F0BF900AC08B1 /* FirstViewController.h */,
+				CC3041CB1A9F0BF900AC08B1 /* FirstViewController.m */,
+				CC3041CD1A9F0C0600AC08B1 /* SecondViewController.h */,
+				CC3041CE1A9F0C0600AC08B1 /* SecondViewController.m */,
+				CC3041AD1A9F0BE000AC08B1 /* Images.xcassets */,
+				CC3041A21A9F0BE000AC08B1 /* Supporting Files */,
+			);
+			path = TransValueDemo;
+			sourceTree = "<group>";
+		};
+		CC3041A21A9F0BE000AC08B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3041A31A9F0BE000AC08B1 /* TransValueDemo-Info.plist */,
+				CC3041A41A9F0BE000AC08B1 /* InfoPlist.strings */,
+				CC3041A71A9F0BE000AC08B1 /* main.m */,
+				CC3041A91A9F0BE000AC08B1 /* TransValueDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC3041BA1A9F0BE000AC08B1 /* TransValueDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3041C01A9F0BE000AC08B1 /* TransValueDemoTests.m */,
+				CC3041BB1A9F0BE000AC08B1 /* Supporting Files */,
+			);
+			path = TransValueDemoTests;
+			sourceTree = "<group>";
+		};
+		CC3041BB1A9F0BE000AC08B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC3041BC1A9F0BE000AC08B1 /* TransValueDemoTests-Info.plist */,
+				CC3041BD1A9F0BE000AC08B1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3041971A9F0BE000AC08B1 /* TransValueDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3041C41A9F0BE000AC08B1 /* Build configuration list for PBXNativeTarget "TransValueDemo" */;
+			buildPhases = (
+				CC3041941A9F0BE000AC08B1 /* Sources */,
+				CC3041951A9F0BE000AC08B1 /* Frameworks */,
+				CC3041961A9F0BE000AC08B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransValueDemo;
+			productName = TransValueDemo;
+			productReference = CC3041981A9F0BE000AC08B1 /* TransValueDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC3041B21A9F0BE000AC08B1 /* TransValueDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3041C71A9F0BE000AC08B1 /* Build configuration list for PBXNativeTarget "TransValueDemoTests" */;
+			buildPhases = (
+				CC3041AF1A9F0BE000AC08B1 /* Sources */,
+				CC3041B01A9F0BE000AC08B1 /* Frameworks */,
+				CC3041B11A9F0BE000AC08B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3041B91A9F0BE000AC08B1 /* PBXTargetDependency */,
+			);
+			name = TransValueDemoTests;
+			productName = TransValueDemoTests;
+			productReference = CC3041B31A9F0BE000AC08B1 /* TransValueDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3041901A9F0BE000AC08B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hnqingyun.com;
+				TargetAttributes = {
+					CC3041B21A9F0BE000AC08B1 = {
+						TestTargetID = CC3041971A9F0BE000AC08B1;
+					};
+				};
+			};
+			buildConfigurationList = CC3041931A9F0BE000AC08B1 /* Build configuration list for PBXProject "TransValueDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC30418F1A9F0BE000AC08B1;
+			productRefGroup = CC3041991A9F0BE000AC08B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3041971A9F0BE000AC08B1 /* TransValueDemo */,
+				CC3041B21A9F0BE000AC08B1 /* TransValueDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3041961A9F0BE000AC08B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3041A61A9F0BE000AC08B1 /* InfoPlist.strings in Resources */,
+				CC3041AE1A9F0BE000AC08B1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3041B11A9F0BE000AC08B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3041BF1A9F0BE000AC08B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3041941A9F0BE000AC08B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3041CF1A9F0C0600AC08B1 /* SecondViewController.m in Sources */,
+				CC3041AC1A9F0BE000AC08B1 /* QYAppDelegate.m in Sources */,
+				CC3041CC1A9F0BF900AC08B1 /* FirstViewController.m in Sources */,
+				CC3041A81A9F0BE000AC08B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3041AF1A9F0BE000AC08B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3041C11A9F0BE000AC08B1 /* TransValueDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC3041B91A9F0BE000AC08B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3041971A9F0BE000AC08B1 /* TransValueDemo */;
+			targetProxy = CC3041B81A9F0BE000AC08B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC3041A41A9F0BE000AC08B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3041A51A9F0BE000AC08B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC3041BD1A9F0BE000AC08B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3041BE1A9F0BE000AC08B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3041C21A9F0BE000AC08B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC3041C31A9F0BE000AC08B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3041C51A9F0BE000AC08B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransValueDemo/TransValueDemo-Prefix.pch";
+				INFOPLIST_FILE = "TransValueDemo/TransValueDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC3041C61A9F0BE000AC08B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransValueDemo/TransValueDemo-Prefix.pch";
+				INFOPLIST_FILE = "TransValueDemo/TransValueDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CC3041C81A9F0BE000AC08B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TransValueDemo.app/TransValueDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransValueDemo/TransValueDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TransValueDemoTests/TransValueDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC3041C91A9F0BE000AC08B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TransValueDemo.app/TransValueDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransValueDemo/TransValueDemo-Prefix.pch";
+				INFOPLIST_FILE = "TransValueDemoTests/TransValueDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3041931A9F0BE000AC08B1 /* Build configuration list for PBXProject "TransValueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3041C21A9F0BE000AC08B1 /* Debug */,
+				CC3041C31A9F0BE000AC08B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3041C41A9F0BE000AC08B1 /* Build configuration list for PBXNativeTarget "TransValueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3041C51A9F0BE000AC08B1 /* Debug */,
+				CC3041C61A9F0BE000AC08B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC3041C71A9F0BE000AC08B1 /* Build configuration list for PBXNativeTarget "TransValueDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3041C81A9F0BE000AC08B1 /* Debug */,
+				CC3041C91A9F0BE000AC08B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3041901A9F0BE000AC08B1 /* Project object */;
+}
